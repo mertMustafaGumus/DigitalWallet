@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FE2FBF90-43D3-425E-8661-F7CF41917A46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CD0FFD2C-E5B1-471B-A19B-344C499A10C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{11BC847C-6497-4789-B540-5CA80479FA77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{DB51A0D6-E564-4CDF-822E-8D5D7F886954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalWallet.Domain", "DigitalWallet.Domain\DigitalWallet.Domain.csproj", "{74C008BB-1C37-47AA-8B4A-CF7EBD98445E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalWallet.Infrasturcture", "DigitalWallet.Infrasturcture\DigitalWallet.Infrasturcture.csproj", "{7C082658-32BA-4E10-831C-55A4D5CC89FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalWallet.Persistance", "DigitalWallet.Persistance\DigitalWallet.Persistance.csproj", "{2E784144-E95B-4175-9988-C12A6AD349D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalWallet.Presentation", "DigitalWallet.Presentation\DigitalWallet.Presentation.csproj", "{572265D6-91BB-4473-B5E2-25D840357B23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalWallet.WebApi", "DigitalWallet.WebApi\DigitalWallet.WebApi.csproj", "{44A678FB-25F0-4F5E-A925-22713945E906}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalWallet.Application", "DigitalWallet.Application\DigitalWallet.Application.csproj", "{14ED73FD-FBAA-4065-9F47-1445B4A33DD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74C008BB-1C37-47AA-8B4A-CF7EBD98445E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C008BB-1C37-47AA-8B4A-CF7EBD98445E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C008BB-1C37-47AA-8B4A-CF7EBD98445E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C008BB-1C37-47AA-8B4A-CF7EBD98445E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C082658-32BA-4E10-831C-55A4D5CC89FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C082658-32BA-4E10-831C-55A4D5CC89FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C082658-32BA-4E10-831C-55A4D5CC89FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C082658-32BA-4E10-831C-55A4D5CC89FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E784144-E95B-4175-9988-C12A6AD349D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E784144-E95B-4175-9988-C12A6AD349D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E784144-E95B-4175-9988-C12A6AD349D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E784144-E95B-4175-9988-C12A6AD349D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{572265D6-91BB-4473-B5E2-25D840357B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{572265D6-91BB-4473-B5E2-25D840357B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{572265D6-91BB-4473-B5E2-25D840357B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{572265D6-91BB-4473-B5E2-25D840357B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44A678FB-25F0-4F5E-A925-22713945E906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A678FB-25F0-4F5E-A925-22713945E906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A678FB-25F0-4F5E-A925-22713945E906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A678FB-25F0-4F5E-A925-22713945E906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14ED73FD-FBAA-4065-9F47-1445B4A33DD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14ED73FD-FBAA-4065-9F47-1445B4A33DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14ED73FD-FBAA-4065-9F47-1445B4A33DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14ED73FD-FBAA-4065-9F47-1445B4A33DD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11BC847C-6497-4789-B540-5CA80479FA77} = {FE2FBF90-43D3-425E-8661-F7CF41917A46}
+		{DB51A0D6-E564-4CDF-822E-8D5D7F886954} = {FE2FBF90-43D3-425E-8661-F7CF41917A46}
+		{74C008BB-1C37-47AA-8B4A-CF7EBD98445E} = {11BC847C-6497-4789-B540-5CA80479FA77}
+		{7C082658-32BA-4E10-831C-55A4D5CC89FE} = {DB51A0D6-E564-4CDF-822E-8D5D7F886954}
+		{2E784144-E95B-4175-9988-C12A6AD349D5} = {DB51A0D6-E564-4CDF-822E-8D5D7F886954}
+		{572265D6-91BB-4473-B5E2-25D840357B23} = {DB51A0D6-E564-4CDF-822E-8D5D7F886954}
+		{44A678FB-25F0-4F5E-A925-22713945E906} = {FE2FBF90-43D3-425E-8661-F7CF41917A46}
+		{14ED73FD-FBAA-4065-9F47-1445B4A33DD0} = {11BC847C-6497-4789-B540-5CA80479FA77}
+	EndGlobalSection
+EndGlobal
